@@ -67,7 +67,7 @@ nav.menu-nav p.button:hover a{
     transition: 0.3s all;
 }
 
-p, h1{
+p, h1, h2{
 	text-align: center;
 }
 
@@ -97,4 +97,10 @@ p.body-button a:hover{
 
 footer p{
 	font-size: 11px;
+}
+
+span.copyleft{
+    display: inline-block;
+    font-family: tahoma;
+    transform: rotate(180deg);
 }
