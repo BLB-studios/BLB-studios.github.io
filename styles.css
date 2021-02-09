@@ -11,15 +11,23 @@ header, footer{
 	border-radius: 8px;
 }
 
-header div#text_header h1{
+footer{
+	height: 60px;
+}
+
+header h1{
 	padding: 10px;
+}
+
+header div#text_header h1{
 	text-align: center;
 }
 
 div#mainmenu{
 	display: flex;
-	justify-content: space-around;
-	float: left;
+	justify-content: center;
+	align-items: center;
+	/* float: left; */
 	background-color: dodgerblue;
 	border-radius: 8px;
 	padding: 5px;
@@ -27,7 +35,8 @@ div#mainmenu{
 
 nav.menu-nav p.button{
     list-style-type: none;
-    transition: 0.3s all;
+	padding: 2px;
+	display: inline-block;
 }
 
 nav.menu-nav p.button a{
@@ -48,6 +57,7 @@ nav.menu-nav p.button a, nav.menu-nav p.button b{
     padding: 8px;
     border-radius: 8px;
     transition: 0.3s all;
+	text-align: center;
 }
 
 nav.menu-nav p.button:hover a{
@@ -59,6 +69,30 @@ nav.menu-nav p.button:hover a{
 
 p, h1{
 	text-align: center;
+}
+
+p.body-button{
+	list-style-type: none;
+    transition: 0.3s all;
+	padding: 2px;
+}
+
+p.body-button a{
+	text-align: center;
+    color: black;
+    text-decoration: none;
+    background-color: dodgerblue;
+	border: 1px solid dodgerblue;
+	padding: 8px;
+    border-radius: 8px;
+    transition: 0.3s all;
+}
+
+p.body-button a:hover{
+    color: white;
+    background-color: royalblue;
+    border: 1px solid white;
+    transition: 0.3s all;
 }
 
 footer p{
