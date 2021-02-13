@@ -27,7 +27,6 @@ div#mainmenu{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* float: left; */
 	background-color: dodgerblue;
 	border-radius: 8px;
 	padding: 5px;
@@ -103,4 +102,20 @@ span.copyleft{
     display: inline-block;
     font-family: tahoma;
     transform: rotate(180deg);
+}
+
+img{
+	border-radius: 10px;
+}
+
+img.game-button{
+	display: block;
+	transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.game-button:hover{
+	box-shadow: 8px 8px 12px #000;
+	transition: 0.3s;
 }
