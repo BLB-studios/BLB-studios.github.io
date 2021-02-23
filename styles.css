@@ -1,3 +1,4 @@
+/* Différentes fonts et couleurs */
 html{
 	font-family: Tahoma;
 }
@@ -6,6 +7,7 @@ body{
     background-color: royalblue;
 }
 
+/* et bordures :) */
 header, footer{
 	background-color: dodgerblue;
 	border-radius: 8px;
@@ -19,15 +21,16 @@ header h1{
 	padding: 10px;
 }
 
+/* alignement */
 header div#text_header h1{
 	text-align: center;
 }
 
+/* menu de navigation */
 div#mainmenu{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* float: left; */
 	background-color: dodgerblue;
 	border-radius: 8px;
 	padding: 5px;
@@ -67,10 +70,12 @@ nav.menu-nav p.button:hover a{
     transition: 0.3s all;
 }
 
+/* alignement */
 p, h1, h2{
 	text-align: center;
 }
 
+/* bouton */
 p.body-button{
 	list-style-type: none;
     transition: 0.3s all;
@@ -95,6 +100,7 @@ p.body-button a:hover{
     transition: 0.3s all;
 }
 
+/* texte du footer */
 footer p{
 	font-size: 11px;
 }
